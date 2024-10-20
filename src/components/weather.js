@@ -36,7 +36,6 @@ const Weather = () => {
                         <h5 className='m-0'>{weather.name}</h5>
                     </div>
                     <div className='d-flex align-items-center'>
-
                         <img
                             src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`}
                             alt={weather.weather[0].description}
