@@ -24,7 +24,7 @@ const Clock = () => {
     return (
         <div className='d-flex align-items-center justify-content-between'>
             <h2 >{getGreeting()}</h2>
-            <h3>{time.toLocaleTimeString()}</h3>
+            <h6>{time.toLocaleTimeString()}</h6>
         </div>
     );
 };

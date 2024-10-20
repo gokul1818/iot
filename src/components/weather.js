@@ -33,7 +33,7 @@ const Weather = () => {
                     <div className='d-flex align-items-center justify-content-between' >
 
                         <p className='weather-temperature m-0'>{weather.main.temp} °C</p>
-                        <h2 className='m-0'>{weather.name}</h2>
+                        <h5 className='m-0'>{weather.name}</h5>
                     </div>
                     <div className='d-flex align-items-center'>
 

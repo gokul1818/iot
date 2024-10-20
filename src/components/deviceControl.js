@@ -103,7 +103,7 @@ const DeviceControl = () => {
                 </button>
             </>
 
-            <div>Current Time: {currentTime}</div>
+            {/* <div>Current Time: {currentTime}</div> */}
         </div>
     );
 };
