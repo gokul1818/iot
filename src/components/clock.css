@@ -1,0 +1,67 @@
+.format-time-style1 {
+    position: relative;
+    height: 100px;
+    /* background: black; */
+    width: 100px;
+
+}
+
+.time-show1 {
+    font-size: 44px;
+    position: absolute;
+    right: 40px;
+    top: 0px;
+    margin: 0;
+    font-weight: 900;
+    border: 5px solid transparent;
+    color: #959595;
+    /* -webkit-text-stroke: 2px #f0f8ff; */
+
+
+}
+
+.time-show2 {
+    font-size: 44px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    margin: 0;
+    font-weight: 900;
+    border: 5px solid transparent;
+    /* -webkit-text-stroke: 2px #f0f8ff; */
+    color: #90deff;
+}
+
+.time-show3 {
+    font-size: 44px;
+    position: absolute;
+    right: 40px;
+    top: 28px;
+    margin: 0;
+
+    font-weight: 900;
+    border: 5px solid transparent;
+    color: #90deff;
+    /* -webkit-text-stroke: 2px #f0f8ff; */
+    ;
+
+
+}
+
+.time-show4 {
+    font-size: 44px;
+    position: absolute;
+    right: 20px;
+
+    top: 28px;
+    margin: 0;
+    font-weight: 900;
+    border: 5px solid transparent;
+    /* -webkit-text-stroke: 2px #f0f8ff; */
+
+    color: #959595;
+
+
+
+
+}
