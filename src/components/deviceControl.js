@@ -27,7 +27,7 @@ const DeviceControl = () => {
                 console.log(`Timestamp: ${timestamp}, Current Time: ${currentTimeInMillis}, Difference: ${timeDifference} seconds`);
 
                 // Set isOnline based on a time threshold (e.g., 30 seconds)
-                setIsOnline(timeDifference < 30); // 30 seconds
+                setIsOnline(timeDifference < 15); // 30 seconds
             } else {
                 setIsOnline(false); // No valid timestamp means OFFline
                 console.log('Invalid or missing timestamp.');
@@ -72,7 +72,7 @@ const DeviceControl = () => {
             console.log(`${device} toggled to ${newStatus}`);
             // Update timestamp in the database
             const timestampRef = ref(db, 'board1/outputs/digital/timestamp');
-            set(timestampRef, timestamp); // Store as string in the specified format
+            // set(timestampRef, timestamp); // Store as string in the specified format
         });
     };
 
